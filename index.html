@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Buscaminas</title>
+  </head>
+  <link rel="stylesheet" href="css/style.css">
+  <body>
+    <header>
+      <h1>Buscaminas</h1>
+    </header>
+    <section >
+      <center>
+          <table class="juego">
+            <tr>
+              <td><div class="imgbox" ><img class="ocultar" src="images/1.jpg"  style="width:100%" ></div></td>
+              <td><div class="imgbox" class="ocultar" src="images/bomba.jpg" onclick="pierde()" style="width:100%"></div></td>
+              <td><div class="imgbox"><img class="ocultar" src="images/block.jpg"  style="width:100%"></div></td>
+              <td><div class="imgbox"><img class="ocultar" src="images/1.jpg"  style="width:100%"></div></td>
+              <td><div class="imgbox"><img class="ocultar" src="images/1.jpg"  style="width:100%"></div></td>
+              <td><div class="imgbox"><img class="ocultar" src="images/block.jpg"  style="width:100%"></div></td>
+            </tr>
+            <tr>
+              <td><div class="imgbox"><img class="ocultar" src="images/block.jpg"  style="width:100%"></div></td>
+              <td><div class="imgbox"><img class="ocultar" src="images/1.jpg"  style="width:100%"></div></td>
+              <td><div class="imgbox"><img class="ocultar" src="images/block.jpg" style="width:100%"></div></td>
+              <td><div class="imgbox"><img class="ocultar" src="images/1.jpg"  style="width:100%"></div></td>
+              <td><div class="imgbox" class="ocultar" src="images/bomba.jpg" onclick="pierde()" style="width:100%"></div></td>
+              <td><div class="imgbox"><img class="ocultar" src="images/block.jpg"  style="width:100%"></div></td>
+            </tr>
+            <tr>
+              <td><div class="imgbox"><img class="ocultar" src="images/block.jpg"  style="width:100%"></div></td>
+              <td><div class="imgbox"><img class="ocultar" src="images/2.jpg"  style="width:100%"></div></td>
+              <td><div class="imgbox" class="ocultar" src="images/bomba.jpg" onclick="pierde()"  style="width:100%"></div></td>
+              <td><div class="imgbox"><img class="ocultar" src="images/block.jpg"  style="width:100%"></div></td>
+              <td><div class="imgbox"><img class="ocultar" src="images/block.jpg"  style="width:100%"></div></td>
+              <td><div class="imgbox"><img class="ocultar" src="images/2.jpg"  style="width:100%"></div></td>
+            </tr>
+            <tr>
+              <td><div class="imgbox"><img class="ocultar" src="images/1.jpg" style="width:100%"></div></td>
+              <td><div class="imgbox" class="ocultar" src="images/bomba.jpg" onclick="pierde()" style="width:100%"></div></td>
+              <td><div class="imgbox"><img class="ocultar" src="images/block.jpg"  style="width:100%"></div></td>
+              <td><div class="imgbox"><img class="ocultar" src="images/block.jpg"  style="width:100%"></div></td>
+              <td><div class="imgbox"><img class="ocultar" src="images/2.jpg"  style="width:100%"></div></td>
+              <td><div class="imgbox" class="ocultar" src="images/bomba.jpg" onclick="pierde()"  style="width:100%"></div></td>
+            </tr>
+            <tr>
+              <td><div class="imgbox"><img class="ocultar" src="images/1.jpg"  style="width:100%"></div></td>
+              <td><div class="imgbox"><img class="ocultar" src="images/2.jpg"  style="width:100%"></div></td>
+              <td><div class="imgbox"><img class="ocultar" src="images/1.jpg"  style="width:100%"></div></td>
+              <td><div class="imgbox" class="ocultar" src="images/bomba.jpg" onclick="pierde()" style="width:100%"></div></td>
+              <td><div class="imgbox"><img class="ocultar" src="images/1.jpg"  style="width:100%"></div></td>
+              <td><div class="imgbox"><img class="ocultar" src="images/1.jpg"  style="width:100%"></div></td>
+            </tr>
+            <tr>
+              <td><div class="imgbox" class="ocultar" src="images/bomba.jpg" onclick="pierde()" style="width:100%"></div></td>
+              <td><div class="imgbox"><img class="ocultar" src="images/1.jpg"  style="width:100%"></div></td>
+              <td><div class="imgbox"><img class="ocultar" src="images/1.jpg"  style="width:100%"></div></td>
+              <td><div class="imgbox"><img class="ocultar" src="images/1.jpg"  style="width:100%"></div></td>
+              <td><div class="imgbox"><img class="ocultar" src="images/1.jpg"  style="width:100%"></div></td>
+              <td><div class="imgbox"><img class="ocultar" src="images/block.jpg"  style="width:100%"></div></td>
+            </tr>
+            <tr>
+              <td><div class="imgbox"><img class="ocultar" src="images/1.jpg"  style="width:100%"></div></td>
+              <td><div class="imgbox"><img class="ocultar" src="images/block.jpg"  style="width:100%"></div></td>
+              <td><div class="imgbox"><img class="ocultar" src="images/1.jpg"  style="width:100%"></div></td>
+              <td><div class="imgbox" class="ocultar" src="images/bomba.jpg" onclick="pierde()" style="width:100%"></div></td>
+              <td><div class="imgbox"><img class="ocultar" src="images/1.jpg"  style="width:100%"></div></td>
+              <td><div class="imgbox"><img class="ocultar" src="images/block.jpg"  style="width:100%"></div></td>
+            </tr>
+          </table><br>
+          <input type="button" value="Volver a Jugar" class="recargar" onClick="location.reload();">
+      </center>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
